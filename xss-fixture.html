@@ -1,0 +1,6 @@
+<!doctype html>
+<html><body>
+<h1>aikido xss fixture</h1>
+<img src=x onerror="alert(document.domain)">
+<script>console.log("xss-fixture")</script>
+</body></html>
